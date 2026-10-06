@@ -176,7 +176,9 @@ Read [this](./hardware-support.md#cpu-requirements) section.
 
 ### Why Redox have its own build system?
 
-The Redox build system (mostly Cookbook) was created to be fully adapted to easy/fast Redox development and cross-compilation, not easily or not available in other build systems.
+The Redox build system (mostly Cookbook) was created to be fully adapted to easy/fast Redox development, cross-compilation and porting, not easily or not available in other build systems.
+
+There's a minimal variant of the build system (Redoxer) focused on quick system/application/CI testing without complex C/C++ dependency, QEMU and development configuration.
 
 ### How can I port a program?
 
